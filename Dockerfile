@@ -16,6 +16,7 @@ RUN apt-get update && \
             g++ \
             cmake \
             git-all \
+            pmccabe \
             dos2unix
 RUN apt-get clean
 
